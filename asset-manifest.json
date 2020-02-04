@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/use-click-away-listener/static/css/main.f678ea87.chunk.css",
+    "main.js": "/use-click-away-listener/static/js/main.50d1f383.chunk.js",
+    "main.js.map": "/use-click-away-listener/static/js/main.50d1f383.chunk.js.map",
+    "runtime-main.js": "/use-click-away-listener/static/js/runtime-main.1cd4879e.js",
+    "runtime-main.js.map": "/use-click-away-listener/static/js/runtime-main.1cd4879e.js.map",
+    "static/js/2.2da04d6e.chunk.js": "/use-click-away-listener/static/js/2.2da04d6e.chunk.js",
+    "static/js/2.2da04d6e.chunk.js.map": "/use-click-away-listener/static/js/2.2da04d6e.chunk.js.map",
+    "index.html": "/use-click-away-listener/index.html",
+    "precache-manifest.a9b955ce102bbf07d53258b80ae3e2fd.js": "/use-click-away-listener/precache-manifest.a9b955ce102bbf07d53258b80ae3e2fd.js",
+    "service-worker.js": "/use-click-away-listener/service-worker.js",
+    "static/css/main.f678ea87.chunk.css.map": "/use-click-away-listener/static/css/main.f678ea87.chunk.css.map",
+    "static/js/2.2da04d6e.chunk.js.LICENSE.txt": "/use-click-away-listener/static/js/2.2da04d6e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1cd4879e.js",
+    "static/js/2.2da04d6e.chunk.js",
+    "static/css/main.f678ea87.chunk.css",
+    "static/js/main.50d1f383.chunk.js"
+  ]
+}
