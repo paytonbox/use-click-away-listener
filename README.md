@@ -13,14 +13,19 @@ npm install --save use-click-away-listener
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import { useMyHook } from 'use-click-away-listener'
+import useClickAwayListener from 'use-click-away-listener'
+
+const handleClickAway = () => {
+  // your code here
+}
 
 const Example = () => {
-  const example = useMyHook()
+  const myClickAwayRef = useClickAwayListener(handleClickAway)
+  
   return (
-    <div>{example}</div>
+    <div ref={myClickAwayRef}>Click Anywhere But Here</div>
   )
 }
 ```
