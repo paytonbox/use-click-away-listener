@@ -1,21 +1,18 @@
-import * as React from 'react'
+import { useRef, useEffect } from 'react'
 
-export const useMyHook = () => {
-  let [{
-    counter
-  }, setState] = React.useState({
-    counter: 0
-  })
+export default function useClickAway(callback) {
+  const ref = useRef(null)
 
-  React.useEffect(() => {
-    let interval = window.setInterval(() => {
-      counter++
-      setState({counter})
-    }, 1000)
+  const handleClickOutside = event => {
+    if (ref.current && !ref.current.contains(event.target)) callback()
+  }
+
+  useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside)
     return () => {
-      window.clearInterval(interval)
+      document.removeEventListener('mousedown', handleClickOutside)
     }
   }, [])
 
-  return counter
+  return ref
 }
